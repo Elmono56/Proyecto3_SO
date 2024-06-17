@@ -195,7 +195,7 @@ void *client_thread(void *arg) {
     char command[BUFFER_SIZE];
 
     while (1) {
-        printf("ftp> ");
+        printf("bftp> ");
         fgets(command, BUFFER_SIZE, stdin);
         command[strcspn(command, "\n")] = 0;
 
